@@ -1,0 +1,45 @@
+#ust{
+    width: 100%;
+    padding-top: 10px;
+    
+    text-align: center;
+    height: auto;
+    background-color: #343538;
+	color:#CCCCCC;
+}
+
+#alt{
+    width: 100%;
+    padding-top: 10px;
+    
+    text-align: center;
+    height: auto;
+    background-color: #343538;
+	color:#CCCCCC;
+}
+
+#tuzel_kisilik_alani {
+    display: none;
+}
+
+#sahis_alani{
+    display: none;
+}
+
+#statediv{
+    display: none;
+}
+
+#citydiv{
+    display: none;
+}
+
+
+#musteri_tipi2{
+    display: none;
+}
+
+#musteri_tipi3{
+    display: none;
+}
+
