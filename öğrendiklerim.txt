@@ -1,2 +1,4 @@
 yaratým tarihi: 20.01.17
 yaratým amacý: öðrendiklerimi listelemek
+
+-github'a nasýl dosya yükleneceðini öðrenmiþ oldum.
