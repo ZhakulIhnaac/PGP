@@ -1,6 +1,10 @@
 yaratým tarihi: 20.01.17
 yaratým amacý: öðrendiklerimi listelemek
 
+-a href içine onclick ekleyebiliyor ama name, id, value ekleyemiyormuþum.
+-cpanelden her defa deðiþen ip'lere izin istemektense % yazýp tüm pc'lere db ye ulaþma izni vermek.
+-github sayesinde baþka bir bilgisayara projeyi clone ile çekebilmek ve ayný proje üzerinden devam etmek.
+
 -sort özelliði ile deðiþtir veya sil butonlarý bir arada çalýþmýyor.
 
 -javascript kullanarak html tablolara filitreleme aracý konulabilir. adresi þu:
@@ -11,6 +15,51 @@ http://www.w3schools.com/howto/howto_js_filter_table.asp
 çekiyor.
 
 -github'a nasýl dosya yükleneceðini öðrenmiþ oldum.
+
+*input placeholder ile deðerleri gönderemiyoruz value kullanmamýz gerekiyor.
+*input içindeki placeholder deðeri submit yapýldýðýnda diðer sayfaya gitmiyor.
+*input içerisinde style ile type arasýndaki farka dikkat etmelisin. style daha çok css ile ilgili özelliklerde kullanýlýyor.
+*database'e bir input bilgisi kaydederken direkt kaydetmek yerine trim fonksiyonunu kullandýktan sonra yazmak daha iyi bir
+fikir olabilir.
+
+*serverda resim uzantýsý jpg diye tariflenince bulamýyor, JPG diyince buluyor.
+
+*input'un placeholder diye bir attribute'u varmýþ. placeholder yalnýz html5'de çalýþýyor.
+*td'lerin yüzdelerini doðru ayarlayabilmek için önce table'ýn yüzdesini belirlemek gerekiyor.
+*td içine width'i direk yazmýyoruz. <td style="width: 50%" þeklinde yazýyoruz.
+
+*javascript içerisine de php kodu yazýlabiliyor.
+*javascript büyük/küçük harfe duyarlý.
+*include'larý her zaman head kýsmýnda diðer þeylerden daha önce koymak yararlý olabiliyor.
+*ajax içerisinde open() içinde yazacaðýmýz þeyi yolluyoruz.
+*bir delete butonu yapýlabilmesi için php ve javascriptin birlikte çalýþmasý gerektiði.
+
+*unutmuþum, select form altýna yazýlabiliyor. ama input gibi bir ifade geçmiyor içinde.
+*bir script fonksiyonu baþka bir sayfaya js uzantýsýyla alýp sonra bunu kendi sayfama import edebilirim.
+*cpanele nasýl dosya iletildiði
+*cpanel database'e nasýl baðlanýldýðý
+*echo "<br />"; <br> yerine geçiyor.    
+*foreach içinde ancak echo diyerek ' ' içinde tablo ile ilgili html taglarýný yazabilirim.
+*header bazen sunucuda problem çýkarýyor onun yerine html tagý olarak <META HTTP-EQUIV="Refresh" CONTENT="0;URL=ekran_login/ver001/ekran_login.php">
+kullanabilirim.
+*bindparam þeklinde birþey var. insert into yaparken value yerine ? koyup bindparam ile yerine koyuyoruz.
+*$pdo->lastInsertId()'yi öðrendik.
+*$pdo->lastInsertId() çalýþmayýnca sorgudan sonra da lastInsertId koyduk, böyle olunca çalýþtý.
+*aslýnda aklýma çok orjinal ve ilginç bir fikir geldi. her defasýnda ekranlarýn akýþlarýný hatýrlamak için 
+klasörler içinden akýþ þemalarýný falan karýþtýrýyorum. bunun yerine bir jpeg resmini bi sayfaya koysam, bu sayfanýn
+linkini de sayfanýn sað üst kýsmýna koysam?
+*maþhur auto increment sorununun çözümü þu þekilde: yeni tablo oluþturursun sql kodu ile, bu sql kodu içerisine 
+auto increment koyarsýn. bundan sonra yapacaðýn default ifadesi kabul olunur.
+*local-server eþitlemesi adýnda bir dosya yaratmak gerekiyormuþ bunu eklemeye baþladým. bu dosyada localde
+deðiþtirdiðim dosyalarýn isimlerini yazýyorum.
+*bazen nedense google chrome css dosyasýnda yapýlan deðiþiklikleri görmüyor ama explorer görüyor. chrome sanki catchden
+çalýþtýrmaya devam ediyor geçmiþi sil desek bile. ayrýca chrome'un incele kýsmýnda css dosyasýný gösteren bir yer ve
+sayfanýn/bölümün css dosyasýnýn neresini kullandýðýný gösteren kýsým var. ayrýca burda css dosyasý üzerinde edit bile
+yapýlabiliyor ama kaydetmiyor. 
+*daha sonradan header ve footer eklemek zor olabiliyor. web sitesi dizaynýnda bunu daha ilk sayfadan yapýp bu sayfayý
+kopyalamak daha kolay.
+*bir table içerisine div eklediðimizde geçerli olmayabilir. illa ki o divin geçerli olmasýný istiyorsak td'ler içerisine
+almamýz gerekiyor.
 
 
 
