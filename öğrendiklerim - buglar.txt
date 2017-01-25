@@ -1,6 +1,8 @@
 yaratým tarihi: 20.01.17
 yaratým amacý: öðrendiklerimi listelemek
 
+-sort özelliði ile deðiþtir veya sil butonlarý bir arada çalýþmýyor.
+
 -javascript kullanarak html tablolara filitreleme aracý konulabilir. adresi þu:
 http://www.w3schools.com/howto/howto_js_filter_table.asp
 -javascriptte toUpperCase metodu bir stringin harflerini büyültüyor.

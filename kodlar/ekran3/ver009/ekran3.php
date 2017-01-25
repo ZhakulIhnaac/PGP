@@ -15,11 +15,24 @@ $sorgu=$pdo->prepare("SELECT * FROM musteriler");
 $sonuc=$sorgu->execute();
 
 ?>
+
     
 <head>
 <link rel="stylesheet" type="text/css" href="<?=$css_dosyasi?>">    
 
 <script type="text/javascript" src="../../sorttable_js/sorttable.js"></script>    
+
+<style>
+
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+    
+    
+</style>    
 
 <script>
 
@@ -28,12 +41,11 @@ window.location="<?=$ekran3?>?del="+id;
 }    
     
 </script>    
-    
 
 </head>
-    
-<body>
 
+<body>
+    
 <script type="text/javascript">
 function myFunction() {
   // Declare variables 
@@ -57,23 +69,27 @@ function myFunction() {
 }
 </script>    
     
-    
+
 <br>    
 <a href=<?="$ekran1"?>>Müşteri Ekle</a>    
 
 <br> 
-        
+
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    
 <table id="myTable" border="1" class="sortable">
+
 <tr>
 <td>Sil</td><td>Değiştir</td><td>Müşteri ID</td><td>Müşteri Adı</td><td>Müşteri Soyadı</td><td>TCKNO</td><td>Vergi No</td><td>Vergi Dairesi</td><td>Müşteri Adresi</td><td>Müşteri İli</td>
 <td>Müşteri İlçesi</td><td>Müşteri Telefon</td><td>Müşteri Eposta</td><td>Müşteri Web Adresi</td><td>Müşteri Faaliyet Kodu</td><td>Müşteri Faaliyet Açıklaması</td>    
 </tr>    
     
+    
 <?php
 
 foreach($sonuc=$sorgu->fetchAll() as $deger){
 
+    
 if(isset($_GET['del'])){
     
 $sql = "DELETE FROM musteriler WHERE musteri_id = :musteri_id";    
@@ -82,12 +98,16 @@ $stmt -> bindParam(':musteri_id', $_GET['del'], PDO::PARAM_INT);
 $stmt->execute();    
 
 }
-    
+  
+
+/*    
 ?>
+  
     
 <tr><td>
 <input type="button" name="sil" id="sil" value="sil "onclick="Deleteqry(<?=$deger['musteri_id']?>)"/> 
 </td>
+
 
 <td>    
 <form name="degistir" action="<?=$ekran4?>">
@@ -99,8 +119,15 @@ $stmt->execute();
 </form>
 </td>
     
+
 <?php    
-        
+*/  
+
+echo '<tr><td>';    
+echo '<input type="button" name="sil" id="sil" value="sil "onclick="Deleteqry(<?=$deger["musteri_id"]?>)"/>'; 
+echo '</td>';    
+    
+    
 echo '<td>';         
 print_r($deger['musteri_id']); 
 echo '</td><td>'; 
