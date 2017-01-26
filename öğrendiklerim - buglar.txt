@@ -1,6 +1,9 @@
 yaratým tarihi: 20.01.17
 yaratým amacý: öðrendiklerimi listelemek
 
+-required bir field'i hide yapýnca formu submit edemiyorsun. bunu aþmanýn yolu sanýrým aþaðýdaki gibi:
+document.GetElementById("city").required = false ; 
+
 -a href içine onclick ekleyebiliyor ama name, id, value ekleyemiyormuþum.
 -cpanelden her defa deðiþen ip'lere izin istemektense % yazýp tüm pc'lere db ye ulaþma izni vermek.
 -github sayesinde baþka bir bilgisayara projeyi clone ile çekebilmek ve ayný proje üzerinden devam etmek.
