@@ -1,2 +1,5 @@
 yaratým tarihi: 26.01.17
 yaratým açýklamasý: þahýs kayýtý göndermiyor, çözmeye çalýþacaðýz.
+
+bu sürümde sorunu state ve city selectlerinin required özelliðini kaldýrarak çözmek zorunda kaldýk.
+sorunun kesin çözümü için birbirine baðlý box yapýsýný baþtan ajax falan öðrenip düzgün tasarlamak zorundayýz.

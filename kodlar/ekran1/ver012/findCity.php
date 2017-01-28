@@ -7,7 +7,7 @@ $query= $pdo->prepare("SELECT musteri_tipi3_id,musteri_tipi3_adi FROM musteri_ti
 $query->execute();
 
 ?>
-<select required name="city">
+<select name="city" id="city">
 <option></option>
 <?php while($row=$query->fetch()) 
 {

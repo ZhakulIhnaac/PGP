@@ -1,6 +1,9 @@
 yaratým tarihi: 20.01.17
 yaratým amacý: öðrendiklerimi listelemek
 
+-Uncaught TypeError: document.getElementByName is not a function hatasý fonksiyonu yanlýþ yazýyorsun demek.
+-Sanýrým getElementById yanlýþ, getElementsById doðru. Ama iþ Id olunca getElementById diyorsun.
+
 -required bir field'i hide yapýnca formu submit edemiyorsun. bunu aþmanýn yolu sanýrým aþaðýdaki gibi:
 document.GetElementById("city").required = false ; 
 

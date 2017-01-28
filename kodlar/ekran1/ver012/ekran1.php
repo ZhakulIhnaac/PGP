@@ -39,12 +39,14 @@ function kurum_ise_goster(id){
         
     var divObject=document.getElementById(id);
     divObject.style.display="block";
+        
     }
     
     //eğer seçilen şahıs ise
     if(ee==2){
     divObject1.style.display="none";
     divObject2.style.display="block";    
+
     }
     }    
     
@@ -77,7 +79,7 @@ $result = $query->fetch();
 <td>Müşteri Tipi1 Seçin:</td>
 <td>
 
-<select required name="country" id="country" onChange="getState(this.value); kurum_ise_goster('statediv'); kurum_ise_goster('musteri_tipi2')">
+<select required name="country" id="country" onChange="kurum_ise_goster('statediv'); kurum_ise_goster('musteri_tipi2'); getState(this.value)">
 <option value="">Müşteri Tipi1 Seçin</option>        
 
 <?php  while($row=$query->fetch()) 

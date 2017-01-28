@@ -30,7 +30,7 @@ $query->execute();
 
    
     
-<select required name="state" onchange="goster('musteri_tipi3');goster('citydiv');getCity(<?=$country?>,this.value)">
+<select name="state" id="state" onchange="goster('musteri_tipi3');goster('citydiv');getCity(<?=$country?>,this.value)">
 <option ></option>
 <?php while($row=$query->fetch()) 
 { 
