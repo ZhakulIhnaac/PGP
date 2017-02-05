@@ -1,6 +1,11 @@
 yaratým tarihi: 20.01.17
 yaratým amacý: öðrendiklerimi listelemek
 
+-açýlýr menü yapýmýnda headerver003 çalýþan dosyasýna eriþtim. burada menüyü açýlýr yapmak için sanýrým sub li'lere de class atamasý 
+yapmamýz gerekiyormuþ.	:05.02.17
+-bir input veya butonun geniþliðini ayalamak için style="width:50%" diyorsun. burada dikkat edilecek nokta width'den sonra = deðil : gelmesi.
+
+
 -pencil adýnda bir gui prototyping tool keþfettim.:29.01.17
 -div class kavramýný öðrendim. divid'yi sayfada sadece bir kere kullanabiliyorken birden fazla sayýda divclass kullanabiliyoruz.
 css dosyasýnda div id özelliklerini #dividismi{} olarak gössterirken div class özelliklerini .divclass ismi{} þeklinde gösteriyoruz.
